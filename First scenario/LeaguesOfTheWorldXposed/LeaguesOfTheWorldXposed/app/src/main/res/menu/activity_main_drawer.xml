@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/germany_bundesliga"
+            android:alphabeticShortcut="A"
+            android:title="Germany | Bundesliga"/>
+        <item
+            android:id="@+id/england_premier"
+            android:alphabeticShortcut="B"
+            android:title="England | Premier League" />
+        <item
+            android:id="@+id/spain_liga"
+            android:alphabeticShortcut="C"
+            android:title="Spain | La Liga" />
+        <item
+            android:id="@+id/italy_seriea"
+            android:alphabeticShortcut="D"
+            android:title="Italy | Serie A" />
+        <item
+            android:id="@+id/brazil_seriea"
+            android:alphabeticShortcut="E"
+            android:title="Brazil | Serie A" />
+        <item
+            android:id="@+id/mexico_ligamx"
+            android:alphabeticShortcut="F"
+            android:title="Mexico | Liga MX" />
+        <item
+            android:id="@+id/usa_mls"
+            android:alphabeticShortcut="G"
+            android:title="USA | MLS" />
+        <item
+            android:id="@+id/netherlands_eredivisie"
+            android:alphabeticShortcut="H"
+            android:title="Netherlands | Eredivisie" />
+        <item
+            android:id="@+id/france_ligue1"
+            android:alphabeticShortcut="I"
+            android:title="France | Ligue 1" />
+        <item
+            android:id="@+id/argentina_primera"
+            android:alphabeticShortcut="J"
+            android:title="Argentina | Primera Division" />
+        <item
+            android:id="@+id/japan_j1league"
+            android:alphabeticShortcut="K"
+            android:title="Japan | J1 League" />
+        <item
+            android:id="@+id/portugal_primeira"
+            android:alphabeticShortcut="L"
+            android:title="Portugal | Primeira Liga" />
+        <item
+            android:id="@+id/russia_premier"
+            android:alphabeticShortcut="M"
+            android:title="Russia | Premier League" />
+        <item
+            android:id="@+id/china_super"
+            android:alphabeticShortcut="N"
+            android:title="China | Super League" />
+        <item
+            android:id="@+id/belgium_pro"
+            android:alphabeticShortcut="O"
+            android:title="Belgium | Pro League" />
+        <item
+            android:id="@+id/turkey_super"
+            android:alphabeticShortcut="P"
+            android:title="Turkey | Super League" />
+        <item
+            android:id="@+id/sweden_allsvenskan"
+            android:alphabeticShortcut="Q"
+            android:title="Sweden | Allsvenskan" />
+        <item
+            android:id="@+id/switzerland_super"
+            android:alphabeticShortcut="R"
+            android:title="Switzerland | Super League" />
+        <item
+            android:id="@+id/australia_a"
+            android:alphabeticShortcut="S"
+            android:title="Australia | A-League" />
+        <item
+            android:id="@+id/poland_ekstraklasa"
+            android:alphabeticShortcut="T"
+            android:title="Poland | Ekstraklasa" />
+        <item
+            android:id="@+id/ecuador_seriea"
+            android:alphabeticShortcut="U"
+            android:title="Ecuador | Serie A" />
+        <item
+            android:id="@+id/uae_pro"
+            android:alphabeticShortcut="V"
+            android:title="UAE | Pro League" />
+        <item
+            android:id="@+id/paraguay_primera"
+            android:alphabeticShortcut="W"
+            android:title="Paraguay | Primera Division" />
+        <item
+            android:id="@+id/scotland_premier"
+            android:alphabeticShortcut="X"
+            android:title="Scotland | Premier League" />
+        <item
+            android:id="@+id/south_premier"
+            android:alphabeticShortcut="Y"
+            android:title="South Africa | Premier Soccer League" />
+        <item
+            android:id="@+id/uruguay_primera"
+            android:alphabeticShortcut="Z"
+            android:title="Uruguay | Primera Division" />
+        <item
+            android:id="@+id/suspensivos"
+            android:alphabeticShortcut="{"
+            android:visible="false"
+            android:title="..." />
+    </group>
+
+</menu>

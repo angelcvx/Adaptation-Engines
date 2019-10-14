@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <android.widget.RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/main_background"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/main_text"
+            android:layout_width="294dp"
+            android:layout_height="188dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp"
+            android:text="Select a video to start the compression!"
+            android:textColor="@color/black"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="59dp"
+            tools:layout_editor_absoluteY="37dp" />
+        <Button
+            android:id="@+id/ready_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="86dp"
+            android:layout_marginEnd="24dp"
+            android:onClick="shareFile"
+            android:text="Ready to share"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="230dp"
+            tools:layout_editor_absoluteY="374dp" />
+
+
+    </android.widget.RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
