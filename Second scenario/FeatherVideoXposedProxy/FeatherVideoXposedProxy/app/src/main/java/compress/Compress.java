@@ -42,7 +42,7 @@ public class Compress implements CompressInterface {
         final long inputSize = inputFile.length();
         GiraffeCompressor.create() //two implementations: mediacodec and ffmpeg,default is mediacodec
                 .input(inputFile) //set video to be compressed
-                .output(outputDir + state.getNumberVideoCompressed(inputFile.getName())+ inputFile.getName()) //set compressed video output
+                .output(outputDir + state.getNumberVideoCompressed(inputFile.getName())+ inputFile.getName()) //set compressed video output 
                 .bitRate(13736000)//set bitrate
                 .resizeFactor((float) factor)//set video resize factor
                 .ready()
