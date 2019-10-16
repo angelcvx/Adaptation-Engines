@@ -40,7 +40,7 @@ Compress implements CompressInterface {
         GiraffeCompressor.create() //two implementations: mediacodec and ffmpeg,default is mediacodec
                 .input(inputFile) //set video to be compressed
                 .output(outputDir + state.getNumberVideoCompressed(inputFile.getName())+ inputFile.getName()) //set compressed video output
-                .bitRate(13736000)//set bitrate
+                .bitRate(1336000)//set bitrate
                 .resizeFactor((float) 1)
                 .ready()
                 .observeOn(AndroidSchedulers.mainThread())
