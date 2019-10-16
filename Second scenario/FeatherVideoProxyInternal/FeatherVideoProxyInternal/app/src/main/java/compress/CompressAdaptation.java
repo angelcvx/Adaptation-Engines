@@ -36,7 +36,7 @@ public class CompressAdaptation implements CompressInterface {
     public File giraffeCompressor (File inputFile, final File outputFile, Context context) {
         GiraffeCompressor.init(context);
         final long inputSize = inputFile.length();
-        GiraffeCompressor.create() //two implementations: mediacodec and ffmpeg,default is mediacodec
+        GiraffeCompressor.create() //two implementations: mediacodec and ffmpeg,default is mediacodec 
                 .input(inputFile) //set video to be compressed
                 .output(outputDir + state.getNumberVideoCompressed(inputFile.getName())+ inputFile.getName()) //set compressed video output
                 .bitRate(13736000)//set bitrate
