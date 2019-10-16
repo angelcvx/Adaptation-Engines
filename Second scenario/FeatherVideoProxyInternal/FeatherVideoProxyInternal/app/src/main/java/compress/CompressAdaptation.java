@@ -39,8 +39,8 @@ public class CompressAdaptation implements CompressInterface {
         GiraffeCompressor.create() //two implementations: mediacodec and ffmpeg,default is mediacodec
                 .input(inputFile) //set video to be compressed
                 .output(outputDir + state.getNumberVideoCompressed(inputFile.getName())+ inputFile.getName()) //set compressed video output
-                .bitRate(1)//set bitrate
-                .resizeFactor((float) 0.2)
+                .bitRate(13736000)//set bitrate
+                .resizeFactor((float) 0.15)
                 .ready()
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Subscriber<GiraffeCompressor.Result>() {
